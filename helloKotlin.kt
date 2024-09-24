@@ -1,3 +1,6 @@
 fun main() {
-    var
+    var name: String = "Brian"
+    name = "Kimanzi"
+
+    print(name)
 }
