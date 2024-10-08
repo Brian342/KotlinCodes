@@ -6,19 +6,21 @@ fun main() {
     // val is a read only keyword meaning it only assigned to one variable
     // var can be assigned to another keyword
 //    name = "Kimanzi"
-    if(greeting != null){
-        println(greeting)
+//    if(greeting != null){
+//        println(greeting)
+//
+//    } else {
+//        greeting = "hi"
+//
+//    }
 
-    } else {
-        greeting = "hi"
+//    println(name)
 
-    }
-
-    println(name)
-
-    println(greeting)
-    print(name)
+    greeting = "Hello"
     when (greeting){
+            null -> println("Hi")
+            else -> println(greeting)
 
     }
+    println(name)
 }
